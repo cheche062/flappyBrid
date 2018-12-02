@@ -52,7 +52,7 @@ export default class Main {
     if ( databus.frame % 30 === 0 ) {
       let enemy = databus.pool.getItemByClass('enemy', Enemy)
       enemy.init(6)
-      databus.enemys.push(enemy)
+      // databus.enemys.push(enemy)
     }
   }
 
